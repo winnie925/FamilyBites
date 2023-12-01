@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>呷家親子餐廳 FamilyBites</title>
+
+    <link rel="shortcut icon" href="images/logohead-02.png">
+
+    <meta property="og:title" content="呷家親子餐廳" />
+    <meta property="og:description" content="爸媽和孩子都愛的餐廳">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="FB上的網址" />
+    <meta property="og:image" content="＃" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="stylesheet" href="./stylesheets/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="#">本店特色</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="#">分店資訊</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link  link-primary" href="question.html">常見問題</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="btn btn-primary mt-2 mt-lg-0" href="form.html">線上訂位</a>
+            </li>
+        </div>
+    </nav>
+
+    <section class="py-5" style="background-image: url(images/bg-07.jpg);">
+        <div class="container text-center">
+            <h5 class="text-primary fw-bold">FamilyBites</h5>
+            <h2>開始線上訂位</h2>
+        </div>
+    </section>
+
+    <section class="py-5 container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form action="" class="form p-lg-5 shadow-lg">
+                    <h3 class="deco-line mb-3">選擇分店</h3>
+                    <div class="row gy-3 row-cols-1 row-cols-lg-3 mb-5">
+                        <div class="col"><a href="#" class="btn btn-outline-primary w-100 py-3 text-dark"> 北部地區 <br class="d-none d-lg-block">台北中正店</a></div>
+                        <div class="col"><a href="#" class="btn btn-outline-primary w-100 py-3 text-dark"> 中部地區 <br class="d-none d-lg-block">台中一中店</a></div>
+                        <div class="col"><a href="#" class="btn btn-outline-primary w-100 py-3 text-light active btn-special"> 南部地區 <br class="d-none d-lg-block">高雄中正店</a></div>
+                    </div>
+                    <h3 class="deco-line mb-3">填寫資料</h3>
+                    <div class="row g-3 row-cols-1 row-cols-lg-2 mb-3">
+                        <div class="col">
+                        <label for="FirstName" class="mb-2">姓氏</label>
+                        <input id="FirstName" type="text" class="form-control" aria-label="First name">
+                        </div>
+                        <div class="col">
+                        <label for="LastName" class="mb-2">名字</label>
+                        <input id="LastName" type="text" class="form-control" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <label for="inputTel" class="form-label">手機號碼</label>
+                            <input type="tel" class="form-control" id="inputTel">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputMail" class="form-label">電子郵件</label>
+                            <input type="email" class="form-control" id="inputMail">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputTime" class="form-label">預約時段</label>
+                            <input type="text" class="form-control" id="inputTime">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">加購服務</label>
+                            <div class="d-flex">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form-check-1">
+                                <label class="form-check-label me-3" for="form-check-1">
+                                孩童遊樂區
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form-check-2">
+                                <label class="form-check-label me-3" for="form-check-2">
+                                托嬰
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form-check-3">
+                                <label class="form-check-label me-3" for="form-check-3">
+                                幼兒餐椅
+                                </label>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="Textarea1" class="form-label">備註說明</label>
+                            <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <a href="#" class="btn btn-primary w-100">立即訂位</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-light">
+        <div class="py-5 container">
+            <h2 class="text-center mb-4 text-primary">需要其他協助嗎?</h2>
+            <div class="row g-3 row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body text-center">
+                            <a class="btn text-primary stretched-link" href="tel:+">
+                            <i class="bi bi-telephone-fill me-1"></i>
+                            <span class="h5">0800-925-925</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body text-center">
+                            <a class="btn text-primary stretched-link" href="#">
+                            <i class="bi bi-facebook me-1"></i>
+                            <span class="h5">呷家 FamilyBites</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body text-center">
+                            <a class="btn text-primary stretched-link" href="question.html">
+                            <i class="bi bi-question-lg"></i>
+                            <span class="h5">常見問題</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-3 bg-secondary text-center text-white">
+            <p class="mb-0">Copyright © 2023 Goodog.All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
